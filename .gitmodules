@@ -1,0 +1,3 @@
+[submodule "vendor/okhttp"]
+	path = vendor/okhttp
+	url = https://github.com/square/okhttp.git
