@@ -2,3 +2,7 @@
 AFNetworking.userprefs
 bin/
 obj/
+
+*.userprefs
+
+OkHttp/Jars/okhttp-1.2.2-SNAPSHOT-jar-with-dependencies.jar
