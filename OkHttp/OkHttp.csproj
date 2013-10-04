@@ -24,6 +24,11 @@
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>None</AndroidLinkMode>
     <ConsolePause>false</ConsolePause>
+    <CustomCommands>
+      <CustomCommands>
+        <Command type="BeforeBuild" />
+      </CustomCommands>
+    </CustomCommands>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>full</DebugType>
@@ -35,7 +40,7 @@
     <ConsolePause>false</ConsolePause>
     <CustomCommands>
       <CustomCommands>
-        <Command type="BeforeBuild" command="${SolutionDir}/build-native-jar" workingdir="${SolutionDir}" />
+        <Command type="BeforeBuild" command="${ProjectDir}/../build-native-jar" workingdir="${ProjectDir}/.." />
       </CustomCommands>
     </CustomCommands>
   </PropertyGroup>
