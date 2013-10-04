@@ -26,7 +26,7 @@
     <ConsolePause>false</ConsolePause>
     <CustomCommands>
       <CustomCommands>
-        <Command type="BeforeBuild" />
+        <Command type="BeforeBuild" command="${ProjectDir}/../build-native-jar" workingdir="${ProjectDir}/.." />
       </CustomCommands>
     </CustomCommands>
   </PropertyGroup>
