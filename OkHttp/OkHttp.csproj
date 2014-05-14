@@ -24,11 +24,6 @@
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>None</AndroidLinkMode>
     <ConsolePause>false</ConsolePause>
-    <CustomCommands>
-      <CustomCommands>
-        <Command type="BeforeBuild" command="${ProjectDir}/../build-native-jar" workingdir="${ProjectDir}/.." />
-      </CustomCommands>
-    </CustomCommands>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>full</DebugType>
@@ -38,11 +33,6 @@
     <WarningLevel>4</WarningLevel>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
     <ConsolePause>false</ConsolePause>
-    <CustomCommands>
-      <CustomCommands>
-        <Command type="BeforeBuild" command="${ProjectDir}/../build-native-jar" workingdir="${ProjectDir}/.." />
-      </CustomCommands>
-    </CustomCommands>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -65,8 +55,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Xamarin.Android.Bindings.targets" />
   <ItemGroup>
-    <EmbeddedJar Include="..\vendor\okhttp\okhttp\target\okhttp-1.5.0.jar">
-      <Link>Jars\okhttp-1.5.0.jar</Link>
-    </EmbeddedJar>
+    <EmbeddedJar Include="Jars\okhttp-1.5.4.jar" />
   </ItemGroup>
 </Project>
