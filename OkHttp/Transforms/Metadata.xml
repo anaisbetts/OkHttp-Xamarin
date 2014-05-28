@@ -1,7 +1,4 @@
 <metadata>
-    <!-- NB: The binder leaves off an 'overload' keyword, so this method causes a compiler error -->
-    <remove-node path="/api/package[@name='com.squareup.okhttp']/class[@name='HttpResponseCache']/method[@name='get']" />
-
     <remove-node path="/api/package[starts-with(@name, 'com.squareup.okhttp.internal')]" />
 
     <attr path="/api/package[@name='com.squareup.okhttp']" name="managedName">OkHttp</attr>

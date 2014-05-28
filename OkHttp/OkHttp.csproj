@@ -64,6 +64,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Xamarin.Android.Bindings.targets" />
   <ItemGroup>
-    <EmbeddedJar Include="Jars\okhttp-2.0.0-RC1.jar" />
+    <EmbeddedJar Include="Jars\okhttp-2.0.0-RC1-jar-with-dependencies.jar" />
   </ItemGroup>
 </Project>
