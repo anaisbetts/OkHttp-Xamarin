@@ -3,5 +3,5 @@
 pushd .
 cd vendor/okhttp
 mvn package -DskipTests
-cp okhttp/target/okhttp-1.2.2-SNAPSHOT-jar-with-dependencies.jar ../../OkHttp/Jars/
+cp okhttp/target/okhttp-*.jar ./../OkHttp/Jars/
 popd
