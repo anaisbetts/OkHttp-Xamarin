@@ -2,6 +2,7 @@
     <remove-node path="/api/package[starts-with(@name, 'com.squareup.okhttp.internal')]" />
 
     <attr path="/api/package[@name='com.squareup.okhttp']" name="managedName">OkHttp</attr>
+    <attr path="/api/package[@name='okio']" name="managedName">OkHttp.Okio</attr>
 
     <!--
   This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
