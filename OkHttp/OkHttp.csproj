@@ -65,8 +65,6 @@
   <Import Project="$(MSBuildExtensionsPath)\Novell\Xamarin.Android.Bindings.targets" />
   <ItemGroup>
     <EmbeddedJar Include="Jars\okhttp-2.0.1-SNAPSHOT.jar" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\okio-1.0.0.jar" />
+    <EmbeddedJar Include="Jars\okio-1.0.0.jar" />
   </ItemGroup>
 </Project>

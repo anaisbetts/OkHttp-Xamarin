@@ -8,4 +8,5 @@
   
   <map package="android.support.v4.app" class="Fragment.SavedState" method="writeToParcel" parameter="flags" enum="Android.OS.ParcelableWriteFlags" />
   -->
+
 </enum-method-mappings>
