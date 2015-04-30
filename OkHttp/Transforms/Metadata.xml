@@ -57,5 +57,14 @@
     <attr path="/api/package[@name='okio']/class[@name='Buffer']/method[@name='writeUtf8' and count(parameter)=1 and parameter[1][@type='java.lang.String']]"
         name="managedReturn">OkHttp.Okio.IBufferedSink</attr>
 
+    <attr path="/api/package[@name='okio']/class[@name='Buffer']/method[@name='writeDecimalLong' and count(parameter)=1 and parameter[1][@type='long']]"
+        name="managedReturn">OkHttp.Okio.IBufferedSink</attr>
+
+    <attr path="/api/package[@name='okio']/class[@name='Buffer']/method[@name='writeByte' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedReturn">OkHttp.Okio.IBufferedSink</attr>
+
+    <attr path="/api/package[@name='okio']/class[@name='Buffer']/method[@name='writeHexadecimalUnsignedLong' and count(parameter)=1 and parameter[1][@type='long']]"
+        name="managedReturn">OkHttp.Okio.IBufferedSink</attr>
+
    	<attr path="/api/package[@name='okio']/class[@name='Buffer']" name="managedName">OkBuffer</attr>
 </metadata>
